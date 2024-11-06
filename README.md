@@ -44,3 +44,21 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+## Launching the Application with Docker
+
+To launch this application using Docker, follow these steps:
+
+### Prerequisites
+
+- Install [Docker](https://www.docker.com/products/docker-desktop) on your machine.
+- Make sure you have `docker` and `docker-compose` installed by running the following commands:
+  ```bash
+  docker --version
+  docker-compose --version
+- Build Docker Image 
+  ```
+  docker-compose build
+- Create docker container
+  ```
+  docker-compose up
